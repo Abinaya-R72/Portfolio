@@ -262,6 +262,17 @@ section {
   .navbar.open {
     left: 0;
   }
+
+  .home-img {
+    width: 600px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-img img {
+    width: 57%;
+  }
 }
 @media (max-width: 500px) {
   :root {
@@ -272,7 +283,19 @@ section {
   .btn {
     padding: 9px 28px;
   }
+  .home-img {
+    width: 600px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-img img {
+    width: 57%;
+    height: auto;
+  }
 }
+
 /* .home-img img {
   animation: imgg 2s ease-in-out infinite;
   animation-delay: 2s;
