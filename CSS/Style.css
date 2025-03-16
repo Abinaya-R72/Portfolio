@@ -98,8 +98,8 @@ section {
   /* width: 400px;
   height: 350px; */
   object-fit: contain;
-  border: 1px;
-  border-radius: 100px;
+  /* border: 1px;
+  border-radius: 100px; */
 }
 .home-text span {
   padding: 5px 25px;
